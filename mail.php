@@ -8,7 +8,7 @@ $mail->Port = 465;
 $mail->Username = '';
 $mail->Password = '';
 $mail->setFrom($_POST['email']);
-$mail->addAddress('cigarsPHP@gmail.com');
+$mail->addAddress('');
 $mail->Subject = 'Hello from PHPMailer!';
 $mail->Body = $_POST['message']."        ".$_POST['email'];
    $array = get_object_vars($mail);
